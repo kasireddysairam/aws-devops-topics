@@ -1,3 +1,11 @@
+Absolute = Full address
+Full path, no confusion, works from anywhere.
+ex:vi /etc/nginx/nginx.conf
+Relative = From where you stand
+Cloud engineer is inside /home/ubuntu and runs:
+cd project
+Works only because he is already in correct location.
+
 1.Kernel (Core of Linux OS)
    A.The Linux Kernel is responsible for directly managing system resources, including:
 
