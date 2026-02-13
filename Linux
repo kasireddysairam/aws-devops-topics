@@ -28,5 +28,97 @@ Temporary & Volatile Directories
 /mnt==>	Temporary mount point for external filesystems.
 ===============================================================================================
 
+User Management in Linux
+---------------------------
+1./bin
+contain basic commands to run Linux
+Ex: ls,cp,mv,cat,echo
+
+2./sbin
+system admin commands
+Mostly used by root user
+if admin want to reboot server
+Ex:reboot,ifconfig
+
+3./boot
+contains files required to boot Linux
+kernel files
+
+4./etc
+configuration files
+stores sytem configuration fules
+ex:
+/etc/passwd--> user accounts
+/etc/hosts--->hostname mapping
+/etc/ssh/sshd_config--->ssh config-->if you change ssh port you edit here
+
+
+4./usr
+contains install applications
+1.usr/bin--->user commands
+2.usr/sbin--->admin commands
+3.usr/lib---.libraries
+
+real time
+----------
+when you install git using 
+apt install git
+git binaries go into---->/usr/bin/git
+
+5./var
+ contains data that changes frequently
+/var/logs
+/var/chache
+real time server has error check
+
+var/log/syslog---->daily activity records
+
+6./proc  
+system information
+/proc/cpuinfo
+/proc/meminfo
+
+7./sys
+system hardware info
+kernel and hardware details
+
+
+
+Diffrence between usr and opt directory
+-----------------------------------------
+1.why git get install in --->/usr/bin/git
+it is installed using os package manager
+it become part of system managed software
+os will update automatically
+software coming form Linux ofical app store
+
+/use--> installed by apt/yum
+/usr--->os controlled software
+
+2.why  oracle and java install in /opt
+it is third party software
+not managed by apt
+you control version manully
+
+/opt--user/cp
+/opt--> User/company controlled software
+
+You download software form internet and install manually
+
+----------------------------------------------------------------------
+/etc--->editable test configuration
+/etc we have
+1.system configuration files
+2.service configuration files
+3.user & authentication config
+4.secutiy configs
+
+
+/etc/passwd-->user information
+ex--> if we create user that user details will store in /etc/passwd
+if we want to update password /etc/shadow
+
+/etc/ssh
+main file /etc/ssh/ssh_config
 
 
