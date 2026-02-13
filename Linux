@@ -23,6 +23,7 @@ Temporary & Volatile Directories
 /proc==>	Virtual filesystem for process and system information.
 /sys==>	Virtual filesystem for hardware and kernel information.
 /dev==>	Contains device files (e.g., /dev/null, /dev/sda).
+/mnt==>	Temporary mount point for external filesystems.
 ===============================================================================================
 
 
