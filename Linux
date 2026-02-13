@@ -1,0 +1,14 @@
+1.Kernel (Core of Linux OS)
+   The Linux Kernel is responsible for directly managing system resources, including:
+
+    Process Management – Schedules processes and handles multitasking.
+    Memory Management – Allocates and deallocates RAM efficiently.
+    Device Drivers – Acts as an interface between software and hardware.
+    File System Management – Manages how data is stored and retrieved.
+    Network Management – Handles communication between systems
+
+2.Shell (Command Line Interface - CLI)
+🔹 A command interpreter that allows users to interact with the kernel.
+🔹 Examples: Bash, Zsh, Fish, Dash, Ksh.
+🔹 Converts user commands into system calls for the kernel.
+
