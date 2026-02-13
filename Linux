@@ -17,6 +17,7 @@ B.Shell (Command Line Interface - CLI)
 a.  /opt=> Used for installing optional third-party software.
 b. /srv==>	Holds data for services like web servers (rarely used in containers)
 c./var==>	Stores logs, caches, and temporary files that change frequently.
+d./etc==>	Stores system configuration files.
 
 Temporary & Volatile Directories
 /tmp==>	Temporary files (cleared on reboot).
