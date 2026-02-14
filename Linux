@@ -5,7 +5,18 @@ Relative = From where you stand
 Cloud engineer is inside /home/ubuntu and runs:
 cd project
 Works only because he is already in correct location.
-
+==============================================================
+🔹Kernel Update
+Updating the Linux brain (kernel) inside the SAME server.
+sudo dnf update kernel
+sudo reboot
+👉 Same EC2 instance
+👉 Same IP
+👉 Same disk
+👉 Only kernel version changes
+🔹 AMI Update
+Creating a new machine image (template) with updated software, then launching NEW servers from it.
+=====================================================================================================================
 1.Kernel (Core of Linux OS)
    A.The Linux Kernel is responsible for directly managing system resources, including:
 
